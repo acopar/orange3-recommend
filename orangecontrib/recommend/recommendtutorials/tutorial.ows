@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Recommendation System Workflow" version="2.0">
+	<nodes>
+		<node id="0" name="Recommendation System Widget" position="(128.0, 103.0)" project_name="Orange3-Recommendation-Systems-Add-on" qualified_name="orangecontrib.recommend.widgets.mywidget.MyWidget" title="Recommendation System Widget" version="" />
+	</nodes>
+	<links />
+	<annotations>
+		<arrow end="(183.0, 144.0)" fill="#C1272D" id="0" start="(283.0, 238.0)" />
+		<text font-family="Helvetica" font-size="16" id="1" rect="(264.0, 257.0, 150.0, 60.0)">This is a widget from an addon</text>
+	</annotations>
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQBYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxAWNzaXAKX3VucGlja2xlX3R5cGUKcQJYDAAA
+AFB5UXQ0LlF0Q29yZXEDWAoAAABRQnl0ZUFycmF5cQRDLgHZ0MsAAQAAAAABAAAAABoAAAHJAAAA
+kgAAAQEAAAAqAAAByAAAAI0AAAAAAABxBYVxBodxB1JxCHMu
+</properties>
+	</node_properties>
+</scheme>

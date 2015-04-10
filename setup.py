@@ -15,7 +15,7 @@ ENTRY_POINTS = {
 
 if __name__ == '__main__':
     setup(
-        name="Orange3 Recommendation Systems Add-on",
+        name="Recommendation Systems Add-on",
         packages=['orangecontrib',
                   'orangecontrib.recommend',
                   'orangecontrib.recommend.recommendtutorials',
