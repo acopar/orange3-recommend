@@ -6,7 +6,7 @@ from setuptools import setup
 
 ENTRY_POINTS = {
     'orange.widgets.tutorials': (
-        'recommendtutorials = orangecontrib.recommend.recommendtutorials',
+        'tutorials = orangecontrib.recommend.tutorials',
     ),
     'orange.widgets': (
         'Recommendation Systems = orangecontrib.recommend.widgets',
@@ -18,10 +18,10 @@ if __name__ == '__main__':
         name="Recommendation Systems Add-on",
         packages=['orangecontrib',
                   'orangecontrib.recommend',
-                  'orangecontrib.recommend.recommendtutorials',
+                  'orangecontrib.recommend.tutorials',
                   'orangecontrib.recommend.widgets'],
         package_data={
-          'orangecontrib.recommend': ['recommendtutorials/*.ows'],
+          'orangecontrib.recommend': ['tutorials/*.ows'],
           'orangecontrib.recommend.widgets': ['icons/*'],
         },
         install_requires=['Orange'],
